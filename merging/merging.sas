@@ -21,5 +21,5 @@ run;
 */
 data mergedset;
 merge hprices2 nhomes2;
-by price; /*The columns must contain in each set; otherwise, repeated values from the first dataset will be dropped */
+by price; /*The columns must contain each set of attributes; otherwise, repeated values from the first dataset will be dropped */
 run;
